@@ -14,6 +14,6 @@ module.exports = {
       modules: true,
     },
     extraFileExtensions: ['ts', 'tsx'],
-    project: ["./tsconfig.json"]
+    project: ['./tsconfig.json'],
   },
 };

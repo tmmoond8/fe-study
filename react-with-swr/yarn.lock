@@ -1736,6 +1736,11 @@
     "@emotion/weak-memoize" "^0.2.5"
     stylis "^4.0.3"
 
+"@emotion/core@^11.0.0":
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/@emotion/core/-/core-11.0.0.tgz#d075867e07864119de7cfd5268c15012bd2d6290"
+  integrity sha512-w4sE3AmHmyG6RDKf6mIbtHpgJUSJ2uGvPQb8VXFL7hFjMPibE8IiehG8cMX3Ztm4svfCQV6KqusQbeIOkurBcA==
+
 "@emotion/hash@^0.8.0":
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/@emotion/hash/-/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
@@ -8602,6 +8607,11 @@ normalize-url@^3.0.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
   integrity sha512-U+JJi7duF1o+u2pynbp2zXDW2/PADgC30f0GsHZtRh+HOcXHnw137TrNlyxxRvWW5fjKd3bcLHPxofWuCjaeZg==
+
+notion-ui@^0.3.9-b:
+  version "0.3.9-b"
+  resolved "https://registry.yarnpkg.com/notion-ui/-/notion-ui-0.3.9-b.tgz#68a6fd329d8d9e71d653a2675e0145e52c2f13e0"
+  integrity sha512-Yi9we2cG/c7UwM9YtVZ9gbgqMUh5mp2PMWJeTk+Gsn6ZO4fiU62w6thKncxpz6t/RkmQqh/euZ52T36Pv/MpMg==
 
 npm-run-path@^2.0.0:
   version "2.0.2"

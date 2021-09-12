@@ -1,20 +1,17 @@
+import React from 'react';
+import { Layout } from 'notion-ui';
+import { ChakraProvider } from '@chakra-ui/react';
+import Aside from './components/Aside';
+import GlobalStyles from './components/GlobalStyle';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edits <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.StrictMode>
+      <GlobalStyles />
+      <ChakraProvider>
+        <Layout.App aside={<Aside />}>abc</Layout.App>
+      </ChakraProvider>
+    </React.StrictMode>
   );
 }
 
